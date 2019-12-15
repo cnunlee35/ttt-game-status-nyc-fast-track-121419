@@ -13,8 +13,13 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
   WIN_COMBINATIONS.each do 
-    if win_index_1 = WIN_COMBINATIONS[0]
-    
+    win_index_1 = WIN_COMBINATION[2]
+    win_index_2 = WIN_COMBINATION[3]
+    win_index_3 = WIN_COMBINATION[4]
+    win_index_4 = WIN_COMBINATION[5]
+    win_index_5 = WIN_COMBINATION[6]
+    win_index_6 = WIN_COMBINATION[7]
+    win_index_7 = WIN_COMBINATION[8]
   
 end
 
