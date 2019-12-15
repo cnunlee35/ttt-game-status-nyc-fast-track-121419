@@ -12,9 +12,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
-  if position_1 == "X" && position_2 == "X" && position_3 == "X"
-    return win_combination
-    
+  if WIN_COMBINATIONS = [0,1,2]
+    WIN_COMBINATIONS(won) 
   end
 end
 
