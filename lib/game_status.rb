@@ -14,7 +14,7 @@ def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
   WIN_COMBINATIONS.each do 
     if win_index_1 = WIN_COMBINATIONS[0]
-    position_1 = board[win_index_1]
+    
   
 end
 
