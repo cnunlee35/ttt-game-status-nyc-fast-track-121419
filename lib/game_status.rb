@@ -12,6 +12,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
+end
 def won?(board)
   WIN_COMBINATIONS.each do 
     win_index_1 = WIN_COMBINATION[2]
@@ -32,6 +33,8 @@ def won?(board)
     position_8 = board[win_index_8]
     if position_1 == "X" && position_2 == "X" && position_3 =="X"
   return WIN_COMBINATION
+else false
+   end
 end
 
 
